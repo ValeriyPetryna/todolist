@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
    <head>
       <meta charset="utf-8">
@@ -7,12 +8,15 @@
       </title>
    </head>
    <body>
-      <div id="myDIV" class="header">
+     <div id="tasklist" class="header">
         <h1>To Do List</h1>
-        <input type="text" id="newTask" placeholder="What needs to be done?">
-      </div>
-      <ul id="tasks">
-      </ul>
+        <input type="text" id="createTask" placeholder="Add new task...">
+        <span onclick="newTask()" class="addTask">Add</span>
+     </div>
+     <ul id="tasks">
+       <li>Wake up at 6:00!</li>
+       <li>Pass all exam!</li>
+     </ul>
    </body>
    <script src="app.js"></script>
- </html>
+</html>
