@@ -34,3 +34,12 @@ for (let i = 0; i < close.length; i++) {
     div.style.display = "none"
   }
 }
+function checked() {
+  let list = document.querySelector('ul')
+  list.addEventListener('click', function(task) {
+    if (task.target.tagName === 'LI') {
+      task.target.classList.toggle('checked')
+    }
+  }, false)
+}
+checked()

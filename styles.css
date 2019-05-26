@@ -66,3 +66,14 @@ input {
 .addTask:hover {
   background-color: #bbb;
 }
+ul li.checked {
+  color: rgb(150, 125, 125);
+  background: rgb(71, 46, 46);
+  text-decoration: line-through;
+}
+.close {
+  position: absolute;
+  padding: 20px 20px 20px 20px;
+  right: 0;
+  top: 0;
+}
