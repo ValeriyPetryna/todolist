@@ -74,9 +74,10 @@ ul li.markAsDone {
 ul li.markAsDone::before {
   content:'\2611';
   position: absolute;
-  top: 12px;
-  left: 16px;
+  top: -15px;
+  left: 0px;
   color:rgb(250, 7, 7);
+  font-size: 65px; 
 }
 .close {
   position: absolute;
@@ -88,5 +89,4 @@ ul li.markAsDone::before {
 .close:hover {
   background-color: #19c5d1;
   color: white;
-  font-size: 80px;
 }
